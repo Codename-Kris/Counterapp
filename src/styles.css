@@ -65,8 +65,7 @@ input:disabled {
   padding: 3px;
   height: 75px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   font-size: 1.3rem;
 }
 
