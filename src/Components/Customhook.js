@@ -37,12 +37,12 @@ const Costhook = () => {
       <br />
       <button className="incrementBtn" onClick={increment}>
         {" "}
-        +{" "}
+        Increment 
       </button>
 
       <button className="decrementBtn" onClick={decrement}>
         {" "}
-        -
+       Decrement
       </button>
       <br />
       <button className= "setBtn" onClick={setvalue}> setvalue</button>
