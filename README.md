@@ -1,5 +1,4 @@
 # Counterapp
-Created with CodeSandbox
 
 This is a counter app 
 
