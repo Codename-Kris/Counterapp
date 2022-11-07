@@ -33,7 +33,7 @@ const Costhook = () => {
   return (
     <div>
       <h1>{counter}</h1>
-      <input className= "input"type="number" value={input} onChange={handleChange} />
+      <input className= "input" type="number" value={input} onChange={handleChange} />
       <br />
       <button className="incrementBtn" onClick={increment}>
         {" "}

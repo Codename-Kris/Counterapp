@@ -53,16 +53,21 @@ input:disabled {
 
 .setBtn{
   margin-top: 20px;
-  background-color: lightcoral;
+  background-color: rgb(157, 214, 0);
   padding: 1rem;
 }
 
 
 .nav-box {
+  background: #00918e;
   display: flex-end;
   transition: 0.5s;
-  background: grey;
   padding: 3px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
 }
 
 .nav-kids {
