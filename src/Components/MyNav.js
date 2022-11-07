@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const MyNav = () => {
   return (
     <div className="nav-box">
-      <nav className="nav-box">
+      <nav className="nav">
         <NavLink className="nav-kids" to={"/"}>
           {" "}
           HomePage{" "}

@@ -57,7 +57,11 @@ input:disabled {
   padding: 1rem;
 }
 
-
+.nav{
+  margin-top: 20px;
+  background-color: rgb(157, 214, 0);
+  padding: 1rem;
+}
 .nav-box {
   background: #00918e;
   display: flex-end;
