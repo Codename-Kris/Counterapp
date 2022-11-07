@@ -33,11 +33,13 @@ input:disabled {
 }
 
 .incrementBtn{
+  margin-top: 20px;
   background-color: green;
   padding: 1rem;
 }
 
 .decrementBtn {
+  margin-top: 20px;
   background-color: lightcoral;
   padding: 1rem;
 }
@@ -46,6 +48,12 @@ input:disabled {
 .resetBtn {
   margin-top: 20px;
   background-color: greenyellow;
+  padding: 1rem;
+}
+
+.setBtn{
+  margin-top: 20px;
+  background-color: lightcoral;
   padding: 1rem;
 }
 
