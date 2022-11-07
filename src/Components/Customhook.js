@@ -35,12 +35,12 @@ const Costhook = () => {
       <h1>{counter}</h1>
       <input type="number" value={input} onChange={handleChange} />
       <br />
-      <button className="decrementBtn " onClick={decrement}>
+      <button className="incrementBtn" onClick={increment}>
         {" "}
         +{" "}
       </button>
 
-      <button className="incrementBtn" onClick={increment}>
+      <button className="decrementBtn" onClick={decrement}>
         {" "}
         -
       </button>

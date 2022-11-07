@@ -32,8 +32,9 @@ input:disabled {
   filter: grayscale(0.5);
 }
 
-.incrementBtn {
+.incrementBtn{
   background-color: green;
+  padding: 3rem;
 }
 
 .decrementBtn {
@@ -64,6 +65,6 @@ input:disabled {
   color: "red";
 }
 
-/* .nav-kids.active {
+.nav-kids.active {
   color: "red";
-} */
+}
