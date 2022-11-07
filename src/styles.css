@@ -34,17 +34,21 @@ input:disabled {
 
 .incrementBtn{
   background-color: green;
-  padding: 3rem;
+  padding: 1rem;
 }
 
 .decrementBtn {
   background-color: lightcoral;
+  padding: 1rem;
 }
+
 
 .resetBtn {
   margin-top: 20px;
   background-color: greenyellow;
+  padding: 1rem;
 }
+
 
 .nav-box {
   display: flex-end;
