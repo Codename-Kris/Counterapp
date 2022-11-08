@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PageNoFound from "./Components/PageNoFound";
 import Costhook from "./Components/Customhook";
-import Reeducer from "./Components/Reeducer";
+import Reeducer from "./Components/Reducer/Reeducer";
 import MyNav from "./Components/MyNav";
 import "./styles.css";
 import CheckBoundary from "./Components/CheckBoundary";

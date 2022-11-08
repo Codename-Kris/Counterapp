@@ -1,4 +1,4 @@
-import { INCREMENT, DECREMENT, RESET } from "../actions/index";
+import { INCREMENT, DECREMENT, RESET } from "../Reducer/index";
 
 const INITIAL_STATE = {
   count: 0,
