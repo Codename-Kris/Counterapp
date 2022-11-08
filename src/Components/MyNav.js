@@ -21,6 +21,10 @@ const MyNav = () => {
           {" "}
           ErrorBoundary{" "}
         </NavLink>
+        <NavLink className="nav-kids" to={"/PageNofound"}>
+          {" "}
+          404{" "}
+        </NavLink>
       </nav>
     </div>
   );
