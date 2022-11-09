@@ -7,7 +7,7 @@ const MyNav = () => {
       <nav className="nav">
         <NavLink className="nav-kids" to={"/"}>
           {" "}
-          HomePage{" "}
+          HomePage {" "}
         </NavLink>
         <NavLink className="nav-kids" to={"/customhook"}>
           {" "}

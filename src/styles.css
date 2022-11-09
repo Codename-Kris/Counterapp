@@ -61,7 +61,7 @@ input:disabled {
   padding: 1rem;
 }
 .nav-box {
-  background: #00918e;
+  background: lightblue;
   display: flex-end;
   transition: 0.5s;
   padding: 3px;
@@ -87,6 +87,7 @@ input:disabled {
 }
 
 .chris {
+  background-color: papayawhip;
   color: blue;
   padding: 2rem;
   margin-left: 5px;

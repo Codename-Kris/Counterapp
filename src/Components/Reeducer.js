@@ -1,28 +1,21 @@
-import { INCREMENT, DECREMENT, RESET } from "../actions/index";
+import React, { useReducer } from 'react';
 
-const INITIAL_STATE = {
-  count: 0,
-  history: []
+const initialState = {
+  count: 0
 };
 
-function handleChange(state, change) {
-  const { count, history } = state;
-  return {
-    count: count + change,
-    history: [count + change, ...history]
-  };
-}
-
-export default function counter(state = INITIAL_STATE, action) {
-  const { count, history } = state;
+function reducer(state, action) {
   switch (action.type) {
-    case INCREMENT:
-      return handleChange(state, 1);
-    case DECREMENT:
-      return handleChange(state, -1);
-    case RESET:
-      return INITIAL_STATE;
+    case 'increment':
+      return {
+        count: state.count + 1
+      };
+    case 'decrement':
+      return {
+        count: state.count - 1
+      };
     default:
-      return state;
+      throw new Error();
   }
 }
+
