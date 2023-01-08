@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PageNoFound from "./Components/PageNoFound";
-import Costhook from "./Components/Customhook";
+import Costhook from "./Components/CustomHook";
 import Reeducer from "./Components/Reducer/Reeducer";
 import MyNav from "./Components/MyNav";
 import "./styles.css";
